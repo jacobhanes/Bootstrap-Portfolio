@@ -1,3 +1,39 @@
 body {
-    background-image: url(hw2-images/prism/prism.png)
+    background-image: url(hw2-images/prism/prism.png);
+}
+#message-box {
+    height: 300px;    
+}
+
+.container.content-box {
+    margin-top: 25px;
+    margin-bottom: 75px;
+}
+.jake-sticky-footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    border-top:5px solid #4aaaa5; 
+}
+.port-images {
+    margin: 10px;
+}
+
+.title-color {
+    color:#4aaaa5;                 
+}
+ 
+.jakenav {
+    display: flex;
+    flex-direction: row;
+}
+.jakebrand {
+    background-color: #4aaaa5 !important;
+    padding: 10px;
+    margin: 0px;
+}
+.brand-size {
+    padding: 0px !important;
 }
